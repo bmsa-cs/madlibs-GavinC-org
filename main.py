@@ -20,4 +20,4 @@ adjective4 = input("Enter an adjective that ends with ness: ")
 verb4 = input("Enter a verb ending in ed: ")
 type_of_building = input("Enter a type of building: ")
 
-print("A(n) " + adjective1 + " " + livingCreature + " " + verb1 + " in a(n) " + event + " to " + verb2 + " the character from the " + adjective2 + " creature. " + gender + " " + adverb + " " + verb3 + " for the " + adjective3 + " " + noun + " so that " + adjective4 + " can be " + verb4 + " to the " + type_of_building + ".")
+print(f"A(n) {adjective1} {livingCreature} {verb1} in a(n) {event} to {verb2} the character from the {adjective2} creature. {gender} {adverb} {verb3} for the {adjective3} {noun} so that {adjective4} can be {verb4} to the {type_of_building}.")
